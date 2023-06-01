@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 1st section and nav style*/
+body {
+    background-color: #f5f5f5;
+}
+.homediv {
+    background-image: linear-gradient(to bottom, #003441, #00222b);
+    width: 100vw;
+    height: 80vh;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+/* navbar elements start*/
+.logo {
+    margin-left: 50px;
+    color: white;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    height: 43px;
+    width: 100%;
+    align-items: center;
+    backdrop-filter: blur(8px);
+}
+.list ul {
+    display: flex;
+}
+.list ul li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding-left: 55px;
+    font-size: 15px;
+}
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav button {
+    border: none;
+    background-color: rgb(253, 125, 77);
+    color: white;
+    height: 34px;
+    width: 100px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* navbar elements end */
+
+/* 1st section elements starts */
+.content {
+    display: flex;
+    color: white;
+    align-items: center;
+    line-height: 1.5;
+}
+.text {
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.text h1 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.text h3 {
+    font-weight: lighter;
+    opacity: 0.6;
+    padding-bottom: 30px;
+}
+.text p {
+    padding-bottom: 25px;
+}
+.text button {
+    border: none;
+    background-color: rgb(253, 125, 77);
+    color: white;
+    height: 40px;
+    width: 400px;
+}
+img{
+    width: 266.6px;
+    height: 352.6px;
+    rotate: 310deg;
+    margin-left: -50px;
+
+}
+.image {
+    background-image: linear-gradient(to right, #003441, #00222b);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 50%;
+}
+.subdivs {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -25px;
+}
+.subdiv1 {
+    background-color: white;
+    height: 140px;
+    width: 350px;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.subdiv2 {
+    background-color: #003441;
+    height: 140px;
+    width: 350px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.subdiv1 h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.subdiv1 p {
+    margin-left: 50px;
+    line-height: 1.5;
+}
+.subdiv2 h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    color: white;
+}
+.subdiv2 p {
+    margin-left: 50px;
+    line-height: 1.5;
+    color: white;
+}
+/* 1st section elements end */
+
+/* 2nd section elements start */
+.section2 {
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    background-image: url(Goimages/pngwing.com\ \(2\)\ \(3\).png);
+    margin-top: 60px;
+    opacity: 0.3;
+}
+.summary {
+    position: relative;
+    top: 50px;
+    margin-left: 150px;
+    width: 500px;
+    line-height: 1.5;
+}
+.summary h1 {
+    font-weight: lighter;
+    margin-bottom: 15px;
+} 
+.summary span {
+    color: rgb(253, 125, 77);
+}
+.second button {
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #003441;
+    color: white;
+}
+.boxes div {
+    width: 290px;
+    height: 270px;
+    position: relative;
+}
+.boxes {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.left {
+    background-image: url(Goimages/chanakya-vardhan-ZkkGJJlZRVE-unsplash.jpg);
+    margin-left: 150px;
+    background-size: cover;
+    background-position: center;
+}
+.title-box-1{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+.para-box-1 {
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+.list-box-1 {
+    padding-left: 34px;
+}
+.left-edit {
+    width: 290px;
+    height: 270px;
+    background: rgba(0, 34, 43, 0.8);
+    color: white;
+}
+.left-edit ul li::before{
+    content: "\2022";
+    color: rgb(253, 125, 77);
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.left-edit ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+.right {
+    margin-right: 200px;
+    border-bottom: rgb(253, 125, 77) 5px solid;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.middle {
+    border-bottom: rgb(253, 125, 77) 5px solid;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.section3 {
+    width: 100vw;
+    height: 67vh;
+    margin-top: 150px;
+    background-image: url(Goimages/clay-banks-76vR6cpTico-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.first {
+    width: 33.3%;
+    height: 67vh;
+    background: rgba(255, 255, 255, 0.1);
+}
+.third {
+    width: 33.3%;
+    height: 67vh;
+    background: rgba(255, 255, 255, 0.1);
+}
+.background-blur {
+    width: 33.3%;
+    height: 67vh;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+}
+.left-edit2 {
+    width: 290px;
+    height: 270px;
+    color: black;
+}
+.left-edit2 ul {
+    list-style: none;
+}
+.left-edit2 ul li::before{
+    content: "\2022";
+    color: rgb(253, 125, 77);
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.para-box-2 {
+    padding-left: 50px;
+    padding-bottom: 3px;
+}
+.list-box-2 {
+    padding-left: 50px;
+}
+.para-box-3 {
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.list-box-3 {
+    padding-left: 50px;
+}
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    margin-left: 52px;
+    margin-top: 10px;
+    color: white;
+}
+.section3 .first h3 {
+    color: white;
+    margin-left: 52px;
+    margin-top: 300px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+.circle-button-color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(253, 125, 77);
+    border: none;
+    margin-left: 52px;
+    margin-top: 20px;
+    color: white;
+}
+.third h3 {
+    color: white;
+    margin-left: 52px;
+    margin-top: 300px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+.background-blur h3 {
+    color: white;
+    margin-left: 52px;
+    margin-top: 200px;
+    margin-bottom: 220px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+.background-blur p {
+    color: white;
+    margin-left: 52px;
+    margin-right: 60px;
+    margin-top: -200px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.section4 {
+    width: 100vw;
+    height: 67vh;
+    background-color: #003441;
+    display: flex;
+}
+.container {
+    width: 350px;
+    margin-left: 230px;
+    margin-bottom: 270px;
+    padding-top: 100px;
+}
+.section4 .heading {
+    color: white;
+    padding-bottom: 20px;
+}
+.container p {
+    color: white;
+    font-size: 13px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.section4 .heading span a {
+    color: rgb(255, 111, 0);
+    text-decoration: none;
+}
+.img {
+    position: relative;
+    z-index: 1;
+    width: 350px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 43px;
+    background-image: url(Goimages/Screen\ Shot\ 2022-09-28\ at\ 3.46.21\ PM\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+.quest {
+    position: relative;
+    z-index: 2;
+    height: 200px;
+    width: 450px;
+    background-image: url(Goimages/Group\ 20.svg);
+}
+.contacts {
+    width: 100vw;
+    height: 150px;
+    background-color: #f5f5f5;
+}
+.contacts h2 {
+    margin-left: 150px;
+    padding-top: 20px;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+.links a {
+    color: grey;
+    text-decoration: none;
+  }
+  .contacts span {
+    color: rgb(253, 125, 77);
+  }
+  
+  /* a i {
+    float: left;
+    margin-right: 10px;
+  }   */
+  .icon {
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+  }
+  .icon ion-icon {
+    margin-left: 40px;
+    margin-right: 10px;
+    color: #5a5a5a; 
+  }
+  .icon a {
+    padding-top: 6px;
+  }
+  footer {
+    width: 100vw;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  .f-contain1 #input {
+    height: 40px;
+    width: 250px;
+    margin-left: 60px;
+  }
+  .f-contain1 button {
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(253, 125, 77);
+  }
+  .f-contain1 p {
+    font-size: 12px;
+    margin-left: 60px;
+    margin-bottom: 2px;
+  }
+  .f-contain1 .footer-logo {
+    margin-left: 60px;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  ::placeholder {
+    color: #74727257;
+  }
+  input[type=text] {
+    padding-left: 12px;
+  }
+  .f-company {
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+  }
+  .f-company ul {
+    list-style: none;
+  }
+  .f-company ul li {
+    padding-bottom: 20px;
+  }
+  .f-company h4 {
+    color: #5a5a5a6d;
+    padding-bottom: 15px;
+    padding-top: 47px;
+  }
+  .f-contact {
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+  }
+  .f-contact ul {
+    list-style: none;
+  }
+  .f-contact ul li {
+    padding-bottom: 20px;
+  }
+  .f-contact h4 {
+    color: #5a5a5a6d;
+    padding-bottom: 15px;
+    padding-top: 47px;
+  }
+  .f-locations {
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+  }
+  .f-locations ul {
+    list-style: none;
+  }
+  .f-locations ul li {
+    padding-bottom: 20px;
+  }
+  .f-locations h4 {
+    color: #5a5a5a6d;
+    padding-bottom: 15px;
+    padding-top: 47px;
+  }
+  .socials {
+    margin-top: 60px;
+  }
+  .socials p {
+    font-size: 16px;
+  }
+  .icon2 {
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+  }
+  .icon2 ion-icon {
+    margin-left: 40px;
+    margin-right: 10px;
+    color: #003441; 
+  }
+
+  @media screen and (max-width: 700px){
+  }
